@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+
+/* Home */
+body {
+  background-image: url(./hero.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Estonia", cursive;
+  color: rgb(64, 2, 14);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+}
+
+.nav-bar-link {
+  align-self: center;
+}
+
+.nav-bar-link ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 60px;
+}
+
+.nav-bar-link li {
+  list-style: none;
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: rgb(64, 2, 14);
+  font-family: "Estonia", cursive;
+}
+
+.nav-bar-link li a {
+  text-decoration: underline;
+  text-decoration-color: rgb(64, 2, 14);
+  font-family: "Estonia", cursive;
+  cursor: pointer;
+}
+
+.nav-bar-link li a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(117, 4, 26);
+  font-family: "Estonia", cursive;
+  cursor: pointer;
+  font-size: 55px;
+}
+
+.logo {
+  align-self: center;
+  font-family: "Estonia", cursive;
+  font-size: 70px;
+  box-sizing: border-box;
+  color: darkred;
+}
+
+.para {
+  width: 400px;
+  align-self: center;
+  font-family: "Estonia", cursive;
+  font-size: 30px;
+}
+
+/* Menu */
+
+.menu-title {
+  font-size: 50px;
+  font-family: "Estonia", cursive;
+}
+
+.item {
+  width: 600px;
+  height: 250px;
+  display: flex;
+  border-color: antiquewhite;
+  border-style: outset;
+  margin-top: 20px;
+  background-color: black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.item-pic img {
+  height: 220px;
+  max-width: 300px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.item-para {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.item-details p {
+  color: antiquewhite;
+}
+
+.item-desc-class p {
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+/* About Us*/
+.about-us {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.address {
+  font-size: 30px;
+  display: flex;
+  height: auto;
+  width: 300px;
+}
+
+.address img,
+.phone img {
+  height: 30px;
+  width: 30px;
+}
+
+.phone {
+  font-size: 30px;
+  display: flex;
+  height: auto;
+  width: 300px;
+}
+
+/* Footer*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+}
+
+.other-footer {
+  font-size: 20px;
+}
+
+.footer a,
+.other-footer a {
+  color: rgb(117, 4, 26);
+}
